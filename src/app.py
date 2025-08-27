@@ -21,7 +21,6 @@ children = st.number_input("Número de hijos", 0, 10, 0)
 bmi = st.number_input("BMI", 10.0, 50.0, 25.0)
 sex_n = st.selectbox("Sexo", ["male", "female"])
 smoker_n = st.selectbox("Fumador", ["yes", "no"])
-
 sex_n = sex_dic[sex_n]
 smoker_n = smoker_dic[smoker_n]
 
