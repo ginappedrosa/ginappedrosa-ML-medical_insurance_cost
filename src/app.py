@@ -16,7 +16,6 @@ with open("/workspaces/ginappedrosa-ML-medical_insurance_cost/src/smoker_rules.j
     
 st.title("Haz una predicción del coste de tu seguro médico")
 st.write("Introduce tus datos:")
-
 age = st.number_input("Edad", 18, 100, 30)
 children = st.number_input("Número de hijos", 0, 10, 0)
 bmi = st.number_input("BMI", 10.0, 50.0, 25.0)
