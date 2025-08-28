@@ -14,3 +14,4 @@ sqlalchemy>=2.0.38
 sympy>=1.10.1
 xgboost
 streamlit
+gunicorn
